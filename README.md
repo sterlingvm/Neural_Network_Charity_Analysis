@@ -1,4 +1,4 @@
-# Neural Network Charity Analysis
+# Neural_Network_Charity_Analysis
 
 ## Analysis Overview
 In this project, we want to use a TensorFlow deep-learning neural network to classify and analyze the success and effectiveness of charitable donations to philanthropic organizations.\
@@ -26,7 +26,7 @@ With these features in our X dataset, we proceeded to standardize values as to e
 
 ### Compiling, Training, and Evaluating the Model
 - This deep-learning neural network model is comprised of two hidden layers with 90 and 40 neurons respectively.\
-The input data has 114 features and 34,299 samples.\
+The input data has 44 features and 34,299 samples.\
 To optimize speed and accuracy for the model's training process, we implemented  `ReLU` activation functions for the 2 hidden layers. Our output is a binary classification, so we used `Sigmoid` in our output layer.\
 For the compilation, the optimizer is `adam` and the loss function is `binary_crossentropy`.
 
